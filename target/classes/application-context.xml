@@ -16,6 +16,36 @@
 		<property name="gender" value="male" />
 		<property name="id" value="1" />
 		<property name="address" ref="add" />
+
+		<property name="list">
+			<list>
+				<value>12</value>
+				<value>122</value>
+				<value>12</value>
+				<value>562</value>
+				<value>982</value>
+			</list>
+		</property>
+
+		<property name="set">
+			<set>
+				<value>12</value>
+				<value>82</value>
+				<value>877</value>
+				<value>12</value>
+				<value>02</value>
+			</set>
+		</property>
+
+		<property name="map">
+			<map>
+				<entry key="1" value="ONE" />
+				<entry key="2" value="TWO" />
+				<entry key="5" value="FIVE" />
+				<entry key="1" value="one" />
+				<entry key="3" value="THREE" />
+			</map>
+		</property>
 	</bean>
 
 
